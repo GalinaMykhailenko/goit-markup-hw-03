@@ -215,6 +215,7 @@ gap: 24px;
 
 .our-team {
 background: #F4F4FD;
+padding: 120px 0;
 }
 
 .our-team-title {
@@ -225,7 +226,6 @@ background: #F4F4FD;
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
-        padding: 120px 0;
         margin-bottom: 72px;
 }
 
@@ -236,13 +236,11 @@ gap: 24px;
 
 .our-team-item {
         background: #FFF;
-        padding-bottom: 32px;
         flex-basis: calc(100% - 72px) / 4;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-bottom: 120px;
         border-radius: 0px 0px 4px 4px;
         box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
@@ -252,13 +250,18 @@ gap: 24px;
         background: #FFF;
 }
 
+.our-team-subtitle-text {
+    padding: 32px 0;
+}
+
 .our-team-subtitle {
     color: #2E2F42;
         font-size: 20px;
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
-        padding-top: 32px;
+        text-align: center;
+        margin-bottom: 8px;
 }
 
 .our-team-text {
@@ -267,7 +270,7 @@ gap: 24px;
         font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        padding-top: 8px;
+        text-align: center;
 }
 
 /* Section 4 */
